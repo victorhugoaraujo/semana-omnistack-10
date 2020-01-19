@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 function App() {
   return (
@@ -37,8 +38,55 @@ function App() {
       </aside>
       <main>
         <ul>
-          <li className="dev-item"></li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/14045736?s=460&v=4" alt="Victor Hugo Araujo"/>
+              <div className="user-info">
+                <strong>Victor Hugo Araujo</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Front end Developer at Hostgator</p>
+            <a href="https://github.com/victorhugoaraujo">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/14045736?s=460&v=4" alt="Victor Hugo Araujo"/>
+              <div className="user-info">
+                <strong>Victor Hugo Araujo</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Front end Developer at Hostgator</p>
+            <a href="https://github.com/victorhugoaraujo">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/14045736?s=460&v=4" alt="Victor Hugo Araujo"/>
+              <div className="user-info">
+                <strong>Victor Hugo Araujo</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Front end Developer at Hostgator</p>
+            <a href="https://github.com/victorhugoaraujo">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/14045736?s=460&v=4" alt="Victor Hugo Araujo"/>
+              <div className="user-info">
+                <strong>Victor Hugo Araujo</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Front end Developer at Hostgator</p>
+            <a href="https://github.com/victorhugoaraujo">Acessar perfil no Github</a>
+          </li>
         </ul>
+
       </main>
     </div>
   );
